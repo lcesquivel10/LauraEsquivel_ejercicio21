@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-os.system("marcha.cpp > datos.dat")
+os.system("Marcha.cpp > datos.dat")
 
 data = np.loadtxt("datos.dat")
 
